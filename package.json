@@ -1,0 +1,16 @@
+{
+  "name": "webapp-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Webapp with user management, check-in, referrals, and withdrawals",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/user.js"
+  },
+  "dependencies": {
+    "mongoose": "^7.8.7"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
